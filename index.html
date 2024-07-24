@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Web Studio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -23,6 +23,7 @@
     />
   </head>
   <body>
+    <!-- #region Header -->
     <header class="header-container">
       <div class="container">
         <nav class="navigation">
@@ -57,20 +58,27 @@
         </address>
       </div>
     </header>
+    <!-- #endregion Header -->
 
     <main>
+      <!-- #region Hero -->
       <section class="topic">
         <div class="container">
           <h1 class="topic-title">Effective Solutions for Your Business</h1>
           <button type="button" class="button">Order Service</button>
         </div>
       </section>
+      <!-- #endregion Hero -->
 
+      <!-- #region Advantages -->
       <section class="advantages">
         <div class="container">
           <h2 class="visually-hidden">Our advantages</h2>
           <ul class="advantages-list">
             <li class="advantages-item">
+              <svg class="icon" width="264" height="112">
+                <use href="./images/icons-2.svg#icon-antenna-1"></use>
+              </svg>
               <h3 class="advantages-item-title">Strategy</h3>
               <p class="advantages-item-content">
                 Our goal is to identify the business problem to walk away with
@@ -78,6 +86,9 @@
               </p>
             </li>
             <li class="advantages-item">
+              <svg class="icon" width="264" height="112">
+                <use href="./images/icons-2.svg#icon-clock-1"></use>
+              </svg>
               <h3 class="advantages-item-title">Punctuality</h3>
               <p class="advantages-item-content">
                 Bring the key message to the brand's audience for the best price
@@ -85,6 +96,9 @@
               </p>
             </li>
             <li class="advantages-item">
+              <svg class="icon" width="264" height="112">
+                <use href="./images/icons-2.svg#icon-diagram-1"></use>
+              </svg>
               <h3 class="advantages-item-title">Diligence</h3>
               <p class="advantages-item-content">
                 Research and confirm brands that present the strongest digital
@@ -92,6 +106,9 @@
               </p>
             </li>
             <li class="advantages-item">
+              <svg class="icon" width="264" height="112">
+                <use href="./images/icons-2.svg#icon-astronaut-1"></use>
+              </svg>
               <h3 class="advantages-item-title">Technologies</h3>
               <p class="advantages-item-content">
                 Design practice focused on digital experiences. We bring forth a
@@ -101,7 +118,9 @@
           </ul>
         </div>
       </section>
+      <!-- #endregion Advantages -->
 
+      <!-- #region Team -->
       <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
@@ -115,41 +134,170 @@
               <div class="team-member-card">
                 <h3 class="team-member-name">Mark Guerrero</h3>
                 <p class="team-member-position">Product Designer</p>
-              </div>
-            </li>
-            <li class="team-member">
-              <img src="./images/img-2.jpg" alt="Tom Ford Photo" width="264" />
-              <div class="team-member-card">
-                <h3 class="team-member-name">Tom Ford</h3>
-                <p class="team-member-position">Frontend Developer</p>
+                <ul class="social-links">
+                  <li>
+                    <a href="#" target="_blank" class="link"
+                      ><svg class="social-media" width="16" height="16">
+                        <use href="./images/icons-2.svg#icon-instagram-2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="link"
+                      ><svg class="social-media" width="16" height="16">
+                        <use href="./images/icons-2.svg#icon-twitter-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="link"
+                      ><svg class="social-media" width="16" height="16">
+                        <use href="./images/icons-2.svg#icon-facebook-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="link"
+                      ><svg class="social-media" width="16" height="16">
+                        <use href="./images/icons-2.svg#icon-linkedin-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-member">
               <img
-                src="./images/img-1.jpg"
+                src="./images/tom-ford.jpg"
+                alt="Tom Ford Photo"
+                width="264"
+              />
+              <div class="team-member-card">
+                <h3 class="team-member-name">Tom Ford</h3>
+                <p class="team-member-position">Frontend Developer</p>
+                <ul class="social-links">
+                  <li>
+                    <a href="#" target="_blank" class="link"
+                      ><svg class="social-media" width="16" height="16">
+                        <use href="./images/icons-2.svg#icon-instagram-2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="link"
+                      ><svg class="social-media" width="16" height="16">
+                        <use href="./images/icons-2.svg#icon-twitter-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" target="_blank" class="link"
+                      ><svg class="social-media" width="16" height="16">
+                        <use href="./images/icons-2.svg#icon-facebook-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="link"
+                      ><svg class="social-media" width="16" height="16">
+                        <use href="./images/icons-2.svg#icon-linkedin-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-member">
+              <img
+                src="./images/camila-garcia.jpg"
                 alt="Camila Garcia Photo"
                 width="264"
               />
               <div class="team-member-card">
                 <h3 class="team-member-name">Camila Garcia</h3>
                 <p class="team-member-position">Marketing</p>
+                <ul class="social-links">
+                  <li>
+                    <a href="#" target="_blank" class="link"
+                      ><svg class="social-media" width="16" height="16">
+                        <use href="./images/icons-2.svg#icon-instagram-2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="link"
+                      ><svg class="social-media" width="16" height="16">
+                        <use href="./images/icons-2.svg#icon-twitter-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" target="_blank" class="link"
+                      ><svg class="social-media" width="16" height="16">
+                        <use href="./images/icons-2.svg#icon-facebook-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="link"
+                      ><svg class="social-media" width="16" height="16">
+                        <use href="./images/icons-2.svg#icon-linkedin-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-member">
               <img
-                src="./images/img.jpg"
+                src="./images/daniel-wilson.jpg"
                 alt="Daniel Wilson Photo"
                 width="264"
               />
               <div class="team-member-card">
                 <h3 class="team-member-name">Daniel Wilson</h3>
                 <p class="team-member-position">UI Designer</p>
+                <ul class="social-links">
+                  <li>
+                    <a href="#" target="_blank" class="link"
+                      ><svg class="social-media" width="16" height="16">
+                        <use href="./images/icons-2.svg#icon-instagram-2"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="link"
+                      ><svg class="social-media" width="16" height="16">
+                        <use href="./images/icons-2.svg#icon-twitter-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" target="_blank" class="link"
+                      ><svg class="social-media" width="16" height="16">
+                        <use href="./images/icons-2.svg#icon-facebook-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" target="_blank" class="link"
+                      ><svg class="social-media" width="16" height="16">
+                        <use href="./images/icons-2.svg#icon-linkedin-1"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
           </ul>
         </div>
       </section>
+      <!-- #endregion Team -->
 
+      <!-- #region Portfolio -->
       <section class="portfolio">
         <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
@@ -208,18 +356,57 @@
           </ul>
         </div>
       </section>
+      <!-- #endregion Portfolio -->
     </main>
 
+    <!-- #region Footer -->
     <footer class="footer-container">
       <div class="container">
-        <a class="footer-logo-link" href="./index.html"
-          >Web<span class="footer-logo-title">Studio</span>
-        </a>
-        <p class="footer-content">
-          Increase the flow of customers and sales for your business with
-          digital marketing & growth solutions.
-        </p>
+        <div>
+          <a class="footer-logo-link" href="./index.html"
+            >Web<span class="footer-logo-title">Studio</span>
+          </a>
+          <p class="footer-content">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+        <div class="social-media-container">
+          <p class="social-media-text">Social media</p>
+          <ul class="social-links-footer">
+            <li>
+              <a href="#" target="_blank" class="link"
+                ><svg class="social-media" width="24" height="24">
+                  <use href="./images/icons-2.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="link"
+                ><svg class="social-media" width="24" height="24">
+                  <use href="./images/icons-2.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" target="_blank" class="link"
+                ><svg class="social-media" width="24" height="24">
+                  <use href="./images/icons-2.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="link"
+                ><svg class="social-media" width="24" height="24">
+                  <use href="./images/icons-2.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
+    <!-- #endregion Footer -->
   </body>
 </html>
