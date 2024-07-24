@@ -123,7 +123,7 @@ img {
   background-color: #404bbf;
   border-radius: 2px;
   position: absolute;
-  bottom: -4px;
+  bottom: -1px;
   left: 0;
 }
 
@@ -137,6 +137,9 @@ img {
   display: flex;
   flex-direction: row;
   gap: 40px;
+}
+
+.contacts-item .contacts-link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -172,10 +175,8 @@ section:not(.topic) {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.topic .container {
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .topic-title {
